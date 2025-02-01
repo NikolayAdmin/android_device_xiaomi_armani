@@ -25,7 +25,8 @@ TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 BOARD_SUPPRESS_SECURE_ERASE := true
 
-# TWRP-Specific
-TW_THEME := portrait_hdpi
-TW_INCLUDE_CRYPTO := true
+# TWRP Configuration
 RECOVERY_SDCARD_ON_DATA := true
+TW_EXCLUDE_TWRPAPP := true
+TW_INCLUDE_CRYPTO := false
+TW_THEME := portrait_hdpi
